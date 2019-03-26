@@ -1,5 +1,5 @@
 const { Elm } = require('./Main.elm');
 
-Elm.SaladBuilder.init({
+Elm.Main.init({
   node: document.querySelector('main')
 });

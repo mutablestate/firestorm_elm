@@ -2,8 +2,8 @@ module Main exposing (main)
 
 import Browser
 import Browser.Navigation as Nav
-import Html as H
 import Json.Decode
+import Layout
 import Url exposing (Url)
 
 
@@ -42,10 +42,7 @@ onUrlChange =
 
 view : model -> Browser.Document Msg
 view model =
-    { title = "Forums"
-    , body =
-        [ H.text "Forums" ]
-    }
+    Layout.view model
 
 
 

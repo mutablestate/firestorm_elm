@@ -1,0 +1,19 @@
+{
+  "name": "firestorm_elm",
+  "version": "0.0.1",
+  "description": "Smooth Terminal (Josh Adams)",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
+  "author": "Josh Adams, mutablestate",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "elm-hot": "^1.0.1",
+    "node-elm-compiler": "^5.0.3"
+  }
+}
